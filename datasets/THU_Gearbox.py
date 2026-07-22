@@ -164,7 +164,7 @@ class THU_data_split(object):
 
     def data_split(self):
         list_train_data = data_load(
-            root=r'D:\datasets\HanTe\Hante',
+            root=r'D:\datasets',
             conditions=self.train_op_conditions,
             SNR=self.train_noise_SNR,
             num_train_samples=self.num_train_samples,
@@ -173,7 +173,7 @@ class THU_data_split(object):
             sig_size=self.data_length, class_label=self.train_classes, flag='train')
 
         list_val_data = data_load(
-            root=r'D:\datasets\HanTe\Hante',
+            root=r'D:\datasets',
             conditions=self.val_op_conditions,
             SNR=self.val_noise_SNR,
             num_train_samples=self.num_train_samples,
@@ -182,7 +182,7 @@ class THU_data_split(object):
             sig_size=self.data_length, class_label=self.val_classes, flag='val')
 
         list_test_data = data_load(
-            root=r'D:\datasets\HanTe\Hante',
+            root=r'D:\datasets',
             conditions=self.test_op_conditions,
             SNR=self.test_noise_SNR,
             num_train_samples=self.num_train_samples,
@@ -191,7 +191,7 @@ class THU_data_split(object):
             sig_size=self.data_length, class_label=self.test_classes, flag='test')
 
         list_pseudo_data = pseudo_data_load(
-            root=r'D:\datasets\HanTe\Hante',
+            root=r'D:\datasets',
             conditions=self.val_op_conditions,
             SNR=self.pseudo_noise_SNR,
             num_train_samples=self.num_train_samples,
