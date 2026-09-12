@@ -208,11 +208,32 @@ DVAN_for_RMFD/
 
 ## Citation
 
-If you find this repository useful in your research, please consider citing the corresponding paper (to be updated upon publication).
+If you find this repository useful in your research, please consider citing the following paper:
+
+> Yiming Xiao, Haidong Shao, Haomiao Zhang, Rongming Wei, Bin Liu. Uncertainty-aware deep variational attention network: A trustworthy mechanical fault diagnostic model assisted by out-of-distribution detection[J]. Engineering Applications of Artificial Intelligence, 2025, 157: 111386.
+
+BibTeX:
+
+```bibtex
+@article{xiao2025uncertainty,
+  author  = {Xiao, Yiming and Shao, Haidong and Zhang, Haomiao and Wei, Rongming and Liu, Bin},
+  title   = {Uncertainty-aware deep variational attention network: A trustworthy mechanical fault diagnostic model assisted by out-of-distribution detection},
+  journal = {Engineering Applications of Artificial Intelligence},
+  volume  = {157},
+  pages   = {111386},
+  year    = {2025},
+  doi     = {10.1016/j.engappai.2025.111386}
+}
+```
 
 ## Acknowledgements
 
 This work is developed by the HNU Intelligent Fault Diagnosis Group. The variational-layer implementations are adapted from open-source Bayesian deep-learning codebases, and the 1-D attention backbones are adapted from public PyTorch model zoos.
+
+## Contact
+
+- **Author:** Yiming Xiao — xiaoym@hnu.edu.cn
+- **Mentor:** Haidong Shao — hdshao@hnu.edu.cn
 
 ## License
 
